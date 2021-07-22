@@ -10,6 +10,14 @@
 #### git remote add origin {paster URL of remote repo}     (add files to remote repo)
 #### git push -u origin master
 
+### TO upload TO VOCAREUM
+
+#### git clone {URL of own git repo} --single-branch --branch {branch_name}
+
+### or 
+
+#### git clone {URL of own git repo}
+
 
 
 
