@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>{{title}}</title>
+        <script type="module">import * as library from '/static/__target__/library.js'; window.library = library;</script>
+    </head>
+    <body>
+        <h1>Welcome to {{title}}</h1>
+        <p>
+        	In this project you will enter some random number and sort them.
+        </p>
+        <p>
+        	<div id="generate">Enter a sequence of numbers separated by a comma ,</div><br><br>
+        	<form action="/ex2">
+            <input type="text" name="numbers" value="" placeholder='eg 5,41,2,3'><br>
+        </p>
+        <br>
+        <br>
+
+        <p>
+            <div id ='entered'>Sorted Sequence is :</div><br>
+        	<div id="sorted">....
+        	<button input type = 'sort' onclick="library.sortnumber2()">Sort</button>
+            </div>
+        </p>
+            </form>
+        <br><a href="/">Home</a>
+
+    </body>
+</html>
